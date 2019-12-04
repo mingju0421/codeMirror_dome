@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "codemirror": "^5.49.2",
     "core-js": "^3.3.2",
+    "element-ui": "^2.13.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -29,7 +31,11 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "off",
+      "no-useless-escape": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
